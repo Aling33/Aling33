@@ -138,18 +138,21 @@ wall = [(r, merged_of(r), stars.get(r, 0)) for r in by_repo if merged_of(r)]
 wall.sort(key=lambda r: (-r[2], -r[1], r[0]))
 render_svg(wall, SVG)
 
-prs_link = lambda repo: f"https://github.com/{repo}/pulls?q=" + urllib.parse.quote(f"is:pr author:{LOGIN}")
 total = len(prs)
 merged = sum(merged_of(r) for r in by_repo)
-lines = ["![Merged PR Wall](merged-prs.svg)", "",
-         f"共 **{total}** 个 PR，覆盖 **{len(by_repo)}** 个上游项目，**{merged}** 个已合并。", ""]
+
+# the README stays a single image; the per-PR detail lives in its own page
+lines = [f"# 上游 PR 清单", "", f"共 **{total}** 个 PR，覆盖 **{len(by_repo)}** 个上游项目，**{merged}** 个已合并。", ""]
 for repo in sorted(by_repo, key=lambda r: (-merged_of(r), -len(by_repo[r]), r.lower())):
     lines += [f"<details><summary><b>{repo}</b> — {len(by_repo[repo])} PR / {merged_of(repo)} merged</summary>", ""]
     lines += [f"- `{p['date']}` [#{p['n']}]({p['url']}) {p['title']} — {p['state']}" for p in by_repo[repo]]
     lines += ["", "</details>", ""]
+open(os.path.join(os.path.dirname(os.path.abspath(README)), "PRS.md"), "w",
+     encoding="utf-8", newline="\n").write("\n".join(lines).rstrip() + "\n")
 
 text = open(README, encoding="utf-8").read()
-new = re.sub(re.escape(START) + r".*?" + re.escape(END), f"{START}\n" + "\n".join(lines).rstrip() + f"\n{END}", text, flags=re.S)
+new = re.sub(re.escape(START) + r".*?" + re.escape(END), f"{START}\n![Merged PR Wall](merged-prs.svg)\n{END}",
+             text, flags=re.S)
 if new != text:
     open(README, "w", encoding="utf-8", newline="\n").write(new)
 print(f"wall: {merged} merged PRs over {len(wall)} projects; readme {'updated' if new != text else 'unchanged'}")
