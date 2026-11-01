@@ -1,10 +1,10 @@
 # 👋 Aling33
 
-关注 Agent / LLM 基础设施，顺手给上游开源项目提修复。
+Building agent / LLM infrastructure — sending fixes upstream where I can.
 
-[全部 Pull Requests ↗](https://github.com/pulls?q=is%3Apr+author%3A%40me) · [仓库 ↗](https://github.com/Aling33?tab=repositories) · [逐条清单 ↗](PRS.md)
+[All Pull Requests ↗](https://github.com/pulls?q=is%3Apr+author%3A%40me) · [Repositories ↗](https://github.com/Aling33?tab=repositories) · [Full list ↗](PRS.md)
 
-## 上游贡献
+## Upstream Contributions
 
 <!-- upstream-prs:start -->
 ![Merged PR Wall](merged-prs.svg)

@@ -1,6 +1,6 @@
-# 上游 PR 清单
+# Upstream Pull Requests
 
-共 **61** 个 PR，覆盖 **28** 个上游项目，**21** 个已合并。
+**61** PRs across **28** upstream projects, **21** merged.
 
 <details><summary><b>bytedance/deer-flow</b> — 11 PR / 9 merged</summary>
 

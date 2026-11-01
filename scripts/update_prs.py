@@ -142,7 +142,7 @@ total = len(prs)
 merged = sum(merged_of(r) for r in by_repo)
 
 # the README stays a single image; the per-PR detail lives in its own page
-lines = [f"# 上游 PR 清单", "", f"共 **{total}** 个 PR，覆盖 **{len(by_repo)}** 个上游项目，**{merged}** 个已合并。", ""]
+lines = ["# Upstream Pull Requests", "", f"**{total}** PRs across **{len(by_repo)}** upstream projects, **{merged}** merged.", ""]
 for repo in sorted(by_repo, key=lambda r: (-merged_of(r), -len(by_repo[r]), r.lower())):
     lines += [f"<details><summary><b>{repo}</b> — {len(by_repo[repo])} PR / {merged_of(repo)} merged</summary>", ""]
     lines += [f"- `{p['date']}` [#{p['n']}]({p['url']}) {p['title']} — {p['state']}" for p in by_repo[repo]]
