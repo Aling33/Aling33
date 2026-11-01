@@ -1,0 +1,226 @@
+[
+ {
+  "repo": "bytedance/deer-flow",
+  "stars": 84828,
+  "forks": 11911,
+  "prs": 11,
+  "merged": 9,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "DeepGym/deepgym",
+  "stars": 38,
+  "forks": 4,
+  "prs": 5,
+  "merged": 3,
+  "pushed_at": "2026-10-23"
+ },
+ {
+  "repo": "ZHangZHengEric/Sage",
+  "stars": 1219,
+  "forks": 113,
+  "prs": 2,
+  "merged": 2,
+  "pushed_at": "2026-10-30"
+ },
+ {
+  "repo": "QwenLM/qwen-code",
+  "stars": 28856,
+  "forks": 3295,
+  "prs": 8,
+  "merged": 1,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "1Panel-dev/MaxKB",
+  "stars": 23086,
+  "forks": 3208,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "comet-ml/opik",
+  "stars": 23085,
+  "forks": 1917,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "Eigenwise/atomic-agents",
+  "stars": 6315,
+  "forks": 558,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-10-29"
+ },
+ {
+  "repo": "opensandbox-group/OpenSandbox",
+  "stars": 16356,
+  "forks": 1531,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "qdrant/fastembed",
+  "stars": 3276,
+  "forks": 292,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-10-28"
+ },
+ {
+  "repo": "The-PR-Agent/pr-agent",
+  "stars": 13856,
+  "forks": 2035,
+  "prs": 1,
+  "merged": 1,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "deepseek-ai/DeepInfer",
+  "stars": 24783,
+  "forks": 3008,
+  "prs": 9,
+  "merged": 0,
+  "pushed_at": "2026-10-26"
+ },
+ {
+  "repo": "czlonkowski/n8n-mcp",
+  "stars": 23186,
+  "forks": 3679,
+  "prs": 2,
+  "merged": 0,
+  "pushed_at": "2026-10-27"
+ },
+ {
+  "repo": "charmbracelet/crush",
+  "stars": 28907,
+  "forks": 2343,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "coleam00/Archon",
+  "stars": 23796,
+  "forks": 3517,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-10-31"
+ },
+ {
+  "repo": "confident-ai/deepeval",
+  "stars": 19226,
+  "forks": 2159,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-10-29"
+ },
+ {
+  "repo": "getpaseo/paseo",
+  "stars": 22710,
+  "forks": 2779,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "go-git/go-git",
+  "stars": 7840,
+  "forks": 1072,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "langgenius/dify",
+  "stars": 160158,
+  "forks": 25323,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "livekit/agents",
+  "stars": 15037,
+  "forks": 4043,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "mastra-ai/mastra",
+  "stars": 29252,
+  "forks": 3066,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "mattpocock/sandcastle",
+  "stars": 8758,
+  "forks": 935,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "meta/pyrefly",
+  "stars": 7173,
+  "forks": 582,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "NousResearch/hermes-agent",
+  "stars": 259406,
+  "forks": 57065,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "openclaw/openclaw",
+  "stars": 393626,
+  "forks": 82731,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "pipecat-ai/pipecat",
+  "stars": 16974,
+  "forks": 3020,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-10-31"
+ },
+ {
+  "repo": "run-llama/llama_index",
+  "stars": 52768,
+  "forks": 8497,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-10-26"
+ },
+ {
+  "repo": "Tencent/WeKnora",
+  "stars": 36173,
+  "forks": 4921,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ },
+ {
+  "repo": "TencentCloud/Octop",
+  "stars": 11416,
+  "forks": 1519,
+  "prs": 1,
+  "merged": 0,
+  "pushed_at": "2026-11-01"
+ }
+]
