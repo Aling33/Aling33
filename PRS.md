@@ -1,6 +1,6 @@
 # Upstream Pull Requests
 
-**61** PRs across **28** upstream projects, **21** merged.
+**65** PRs across **28** upstream projects, **25** merged.
 
 <details><summary><b>bytedance/deer-flow</b> — 11 PR / 9 merged</summary>
 
@@ -28,6 +28,15 @@
 
 </details>
 
+<details><summary><b>Tencent/WeKnora</b> — 4 PR / 3 merged</summary>
+
+- `2026-11-02` [#5024](https://github.com/Tencent/WeKnora/pull/5024) fix(knowledge): keep a reparse searchable until its worker replaces the content — 🟡 open
+- `2026-11-01` [#4989](https://github.com/Tencent/WeKnora/pull/4989) fix(client): recover deepseek-flash DSML calls with doubled bars — ✅ merged
+- `2026-11-01` [#4992](https://github.com/Tencent/WeKnora/pull/4992) fix(client): bound successful response bodies in the SDK — ✅ merged
+- `2026-10-30` [#4929](https://github.com/Tencent/WeKnora/pull/4929) fix(audit): widen audit_logs.actor_user_id to fit embed and MCP actors — ✅ merged
+
+</details>
+
 <details><summary><b>ZHangZHengEric/Sage</b> — 2 PR / 2 merged</summary>
 
 - `2026-10-13` [#300](https://github.com/ZHangZHengEric/Sage/pull/300) feat(model): add OrcaRouter OpenAI-compatible provider preset — ✅ merged
@@ -42,9 +51,18 @@
 - `2026-10-21` [#15045](https://github.com/QwenLM/qwen-code/pull/15045) fix(cli): exit 1 when an extension update fails — 🟡 open
 - `2026-10-21` [#15037](https://github.com/QwenLM/qwen-code/pull/15037) fix(cli): fail closed when the extension consent prompt has no stdin — 🟡 open
 - `2026-10-21` [#15044](https://github.com/QwenLM/qwen-code/pull/15044) fix(cli): refuse the marketplace plugin picker without a terminal — 🟡 open
-- `2026-10-20` [#14951](https://github.com/QwenLM/qwen-code/pull/14951) fix(docs-site): run the documented local preview on Windows cmd — 🟡 open
 - `2026-10-20` [#14952](https://github.com/QwenLM/qwen-code/pull/14952) fix(core): let the file crawler use the bundled ripgrep — 🟡 open
+- `2026-10-20` [#14951](https://github.com/QwenLM/qwen-code/pull/14951) fix(docs-site): run the documented local preview on Windows cmd — 🟡 open
 - `2026-10-20` [#14910](https://github.com/QwenLM/qwen-code/pull/14910) ci(sdk-java): preserve failure reports and SQL causes — ✅ merged
+
+</details>
+
+<details><summary><b>langgenius/dify</b> — 4 PR / 1 merged</summary>
+
+- `2026-11-02` [#45297](https://github.com/langgenius/dify/pull/45297) fix(dify-agent): deduplicate plugin tool JSON output by content, not formatting — ✅ merged
+- `2026-11-02` [#45300](https://github.com/langgenius/dify/pull/45300) fix(dify-agent): record the in-flight request usage when a run is cancelled — 🟡 open
+- `2026-11-02` [#45278](https://github.com/langgenius/dify/pull/45278) fix(dify-agent): request the internal files URL for plugin file parameters — 🟡 open
+- `2026-10-31` [#45209](https://github.com/langgenius/dify/pull/45209) fix(dify-agent): validate plugin-declared blob size before allocating chunk buffer — 🟡 open
 
 </details>
 
@@ -98,14 +116,6 @@
 
 </details>
 
-<details><summary><b>Tencent/WeKnora</b> — 3 PR / 0 merged</summary>
-
-- `2026-11-01` [#4992](https://github.com/Tencent/WeKnora/pull/4992) fix(client): bound successful response bodies in the SDK — 🟡 open
-- `2026-11-01` [#4989](https://github.com/Tencent/WeKnora/pull/4989) fix(client): recover deepseek-flash DSML calls with doubled bars — 🟡 open
-- `2026-10-30` [#4929](https://github.com/Tencent/WeKnora/pull/4929) fix(audit): widen audit_logs.actor_user_id to fit embed and MCP actors — 🟡 open
-
-</details>
-
 <details><summary><b>czlonkowski/n8n-mcp</b> — 2 PR / 0 merged</summary>
 
 - `2026-10-19` [#1165](https://github.com/czlonkowski/n8n-mcp/pull/1165) fix(validation): accept n8n expressions in numeric and boolean properties — 🟡 open
@@ -140,12 +150,6 @@
 <details><summary><b>go-git/go-git</b> — 1 PR / 0 merged</summary>
 
 - `2026-10-13` [#2523](https://github.com/go-git/go-git/pull/2523) plumbing: transport, Send server shallow boundary in v2 fetch — 🟡 open
-
-</details>
-
-<details><summary><b>langgenius/dify</b> — 1 PR / 0 merged</summary>
-
-- `2026-10-31` [#45209](https://github.com/langgenius/dify/pull/45209) fix(dify-agent): validate plugin-declared blob size before allocating chunk buffer — 🟡 open
 
 </details>
 
