@@ -10,7 +10,7 @@
   "repos": [
     {
       "repo": "bytedance/deer-flow",
-      "stars": 84881,
+      "stars": 84882,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner": "bytedance",
       "logo": {
@@ -66,7 +66,7 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 160235,
+      "stars": 160234,
       "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "owner": "langgenius",
       "logo": {
@@ -93,8 +93,36 @@
       "prs_exact": true
     },
     {
+      "repo": "comet-ml/opik",
+      "stars": 23119,
+      "desc": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "owner": "comet-ml",
+      "logo": {
+        "kind": "raster",
+        "b64": "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",
+        "mime": "image/png"
+      },
+      "logo_src": "avatar",
+      "prs": 1,
+      "prs_exact": true
+    },
+    {
+      "repo": "1Panel-dev/MaxKB",
+      "stars": 23093,
+      "desc": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+      "owner": "1Panel-dev",
+      "logo": {
+        "kind": "raster",
+        "b64": "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",
+        "mime": "image/jpeg"
+      },
+      "logo_src": "avatar",
+      "prs": 1,
+      "prs_exact": true
+    },
+    {
       "repo": "opensandbox-group/OpenSandbox",
-      "stars": 16391,
+      "stars": 16392,
       "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "owner": "opensandbox-group",
       "logo": {
@@ -121,5 +149,5 @@
       "prs_exact": true
     }
   ],
-  "generated_at": "2026-11-02T14:36:54.896383+00:00"
+  "generated_at": "2026-11-02T14:51:32.177058+00:00"
 }
