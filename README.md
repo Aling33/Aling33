@@ -1,10 +1,11 @@
-# 👋 Aling33
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img src="./assets/hero-light.svg" width="100%" alt="Aling33 · Building agent / LLM infrastructure — sending fixes upstream where I can.">
+</picture>
 
-Building agent / LLM infrastructure — sending fixes upstream where I can.
-
-## Upstream Contributions
-
-<!-- upstream-prs:start -->
-![Merged PR Wall](merged-prs.svg)
-<!-- upstream-prs:end -->
-
+<!-- CONTRIB:BEGIN -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg">
+  <img src="./assets/contrib-light.svg" width="100%" alt="Merged pull requests and repositories">
+</picture>
+<!-- CONTRIB:END -->
