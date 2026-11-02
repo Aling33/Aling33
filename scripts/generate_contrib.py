@@ -453,12 +453,23 @@ def snippet(data: dict | None = None, *, theme: str = "t1", language: str = "zh"
         query = urllib.parse.quote(data["query"])
         entries.extend(("", f"[GitHub Search](https://github.com/search?q={query}&type=pullrequests)", END))
         return "\n".join(entries)
+    rest = data["repos"][top:] if data is not None else []
+    more = ""
+    if rest:
+        label = (f"Show the other {len(rest)} repositories" if language == "en"
+                 else f"展开其余 {len(rest)} 个仓库")
+        lines = ["<details>", f"<summary>{label}</summary>", ""]
+        for repo in rest:
+            lines.append(f"- [{repo['repo']}](https://github.com/{repo['repo']}) · "
+                         f"{repo['prs']} {'PR' if repo['prs'] == 1 else 'PRs'} · ★ {fmt_stars(repo['stars'])}")
+        lines.extend(("", "</details>"))
+        more = "\n".join(lines) + "\n"
     return f"""{BEGIN}
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg">
   <img src="./assets/contrib-light.svg" width="100%" alt="Merged pull requests and repositories">
 </picture>
-{END}"""
+{more}{END}"""
 
 
 def write_contribution(out: Path, data: dict, *, theme: str = "t1", accent: str = "blue",

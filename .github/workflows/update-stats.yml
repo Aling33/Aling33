@@ -24,7 +24,7 @@ jobs:
       - name: 获取真实贡献并更新展示区
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_contrib.py Aling33 --out . --theme t1 --accent purple --language en --top 10
+        run: python scripts/generate_contrib.py Aling33 --out . --theme t1 --accent purple --language en --top 6 --probe 20 --sort stars
       - name: 校验本地资源
         run: python scripts/verify_render.py --local .
       - name: 仅在内容变化时提交
