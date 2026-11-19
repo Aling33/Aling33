@@ -3,14 +3,14 @@
   "scope": "upstream",
   "visibility": "public",
   "query": "author:Aling33 type:pr is:merged is:public -user:Aling33",
-  "total_merged": 30,
+  "total_merged": 31,
   "last_merged": "2026-11",
   "complete": true,
   "repo_count": 12,
   "repos": [
     {
       "repo": "langgenius/dify",
-      "stars": 161411,
+      "stars": 161486,
       "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "owner": "langgenius",
       "logo": {
@@ -24,7 +24,7 @@
     },
     {
       "repo": "bytedance/deer-flow",
-      "stars": 85480,
+      "stars": 85517,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner": "bytedance",
       "logo": {
@@ -33,12 +33,12 @@
         "mime": "image/png"
       },
       "logo_src": "avatar",
-      "prs": 9,
+      "prs": 10,
       "prs_exact": true
     },
     {
       "repo": "Tencent/WeKnora",
-      "stars": 37729,
+      "stars": 37797,
       "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner": "Tencent",
       "logo": {
@@ -52,7 +52,7 @@
     },
     {
       "repo": "QwenLM/qwen-code",
-      "stars": 30746,
+      "stars": 30779,
       "desc": "An open-source AI coding agent that lives in your terminal.",
       "owner": "QwenLM",
       "logo": {
@@ -66,7 +66,7 @@
     },
     {
       "repo": "comet-ml/opik",
-      "stars": 23449,
+      "stars": 23457,
       "desc": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
       "owner": "comet-ml",
       "logo": {
@@ -80,7 +80,7 @@
     },
     {
       "repo": "1Panel-dev/MaxKB",
-      "stars": 23165,
+      "stars": 23172,
       "desc": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
       "owner": "1Panel-dev",
       "logo": {
@@ -94,7 +94,7 @@
     },
     {
       "repo": "opensandbox-group/OpenSandbox",
-      "stars": 17530,
+      "stars": 17636,
       "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "owner": "opensandbox-group",
       "logo": {
@@ -108,7 +108,7 @@
     },
     {
       "repo": "The-PR-Agent/pr-agent",
-      "stars": 16363,
+      "stars": 16411,
       "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
       "owner": "The-PR-Agent",
       "logo": {
@@ -122,7 +122,7 @@
     },
     {
       "repo": "Eigenwise/atomic-agents",
-      "stars": 6339,
+      "stars": 6342,
       "desc": "Building AI agents, atomically",
       "owner": "Eigenwise",
       "logo": {
@@ -136,7 +136,7 @@
     },
     {
       "repo": "qdrant/fastembed",
-      "stars": 3301,
+      "stars": 3305,
       "desc": "Fast, Accurate, Lightweight Python library to make State of the Art Embedding",
       "owner": "qdrant",
       "logo": {
@@ -150,7 +150,7 @@
     },
     {
       "repo": "ZHangZHengEric/Sage",
-      "stars": 1217,
+      "stars": 1218,
       "desc": "An RSI Agent Harness for running, evaluating, and evolving agents—with tools, skills, MCP, stateful execution, and multi-agent workflows.",
       "owner": "ZHangZHengEric",
       "logo": {
@@ -177,5 +177,5 @@
       "prs_exact": true
     }
   ],
-  "generated_at": "2026-11-18T11:56:58.990907+00:00"
+  "generated_at": "2026-11-19T11:54:16.722615+00:00"
 }
