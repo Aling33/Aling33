@@ -10,7 +10,7 @@
   "repos": [
     {
       "repo": "langgenius/dify",
-      "stars": 161486,
+      "stars": 161562,
       "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "owner": "langgenius",
       "logo": {
@@ -24,7 +24,7 @@
     },
     {
       "repo": "bytedance/deer-flow",
-      "stars": 85517,
+      "stars": 85543,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner": "bytedance",
       "logo": {
@@ -38,7 +38,7 @@
     },
     {
       "repo": "Tencent/WeKnora",
-      "stars": 37797,
+      "stars": 37874,
       "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner": "Tencent",
       "logo": {
@@ -52,7 +52,7 @@
     },
     {
       "repo": "QwenLM/qwen-code",
-      "stars": 30779,
+      "stars": 30809,
       "desc": "An open-source AI coding agent that lives in your terminal.",
       "owner": "QwenLM",
       "logo": {
@@ -66,7 +66,7 @@
     },
     {
       "repo": "comet-ml/opik",
-      "stars": 23457,
+      "stars": 23462,
       "desc": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
       "owner": "comet-ml",
       "logo": {
@@ -80,7 +80,7 @@
     },
     {
       "repo": "1Panel-dev/MaxKB",
-      "stars": 23172,
+      "stars": 23178,
       "desc": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
       "owner": "1Panel-dev",
       "logo": {
@@ -94,7 +94,7 @@
     },
     {
       "repo": "opensandbox-group/OpenSandbox",
-      "stars": 17636,
+      "stars": 17702,
       "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "owner": "opensandbox-group",
       "logo": {
@@ -108,7 +108,7 @@
     },
     {
       "repo": "The-PR-Agent/pr-agent",
-      "stars": 16411,
+      "stars": 16474,
       "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
       "owner": "The-PR-Agent",
       "logo": {
@@ -164,8 +164,8 @@
     },
     {
       "repo": "DeepGym/deepgym",
-      "stars": 25,
-      "desc": "RL environments with verifiable rewards you can trust. Sandboxed coding and computer-use tasks, verifiers kept apart from the answer, a QA gate against reward hacking, and infra failures kept out of training. Works with verl, TRL, OpenRLHF and Axolotl.",
+      "stars": 22,
+      "desc": "Build RL gyms, record agent traces and learn from them, with rewards that hold up against shortcut answers and infrastructure failures. Sandboxed coding and computer-use tasks, a QA gate against reward hacking, trace scanners, datasets and expert review. Works with verl, TRL, OpenRLHF and Axolotl.",
       "owner": "DeepGym",
       "logo": {
         "kind": "raster",
@@ -177,5 +177,5 @@
       "prs_exact": true
     }
   ],
-  "generated_at": "2026-11-19T11:54:16.722615+00:00"
+  "generated_at": "2026-11-20T11:55:35.049188+00:00"
 }
