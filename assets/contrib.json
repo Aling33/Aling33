@@ -10,7 +10,7 @@
   "repos": [
     {
       "repo": "langgenius/dify",
-      "stars": 161562,
+      "stars": 161606,
       "desc": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "owner": "langgenius",
       "logo": {
@@ -24,7 +24,7 @@
     },
     {
       "repo": "bytedance/deer-flow",
-      "stars": 85543,
+      "stars": 85568,
       "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner": "bytedance",
       "logo": {
@@ -38,7 +38,7 @@
     },
     {
       "repo": "Tencent/WeKnora",
-      "stars": 37874,
+      "stars": 37936,
       "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner": "Tencent",
       "logo": {
@@ -52,7 +52,7 @@
     },
     {
       "repo": "QwenLM/qwen-code",
-      "stars": 30809,
+      "stars": 30832,
       "desc": "An open-source AI coding agent that lives in your terminal.",
       "owner": "QwenLM",
       "logo": {
@@ -66,7 +66,7 @@
     },
     {
       "repo": "comet-ml/opik",
-      "stars": 23462,
+      "stars": 23479,
       "desc": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
       "owner": "comet-ml",
       "logo": {
@@ -80,7 +80,7 @@
     },
     {
       "repo": "1Panel-dev/MaxKB",
-      "stars": 23178,
+      "stars": 23180,
       "desc": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
       "owner": "1Panel-dev",
       "logo": {
@@ -94,7 +94,7 @@
     },
     {
       "repo": "opensandbox-group/OpenSandbox",
-      "stars": 17702,
+      "stars": 17754,
       "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
       "owner": "opensandbox-group",
       "logo": {
@@ -108,7 +108,7 @@
     },
     {
       "repo": "The-PR-Agent/pr-agent",
-      "stars": 16474,
+      "stars": 16515,
       "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
       "owner": "The-PR-Agent",
       "logo": {
@@ -122,7 +122,7 @@
     },
     {
       "repo": "Eigenwise/atomic-agents",
-      "stars": 6342,
+      "stars": 6343,
       "desc": "Building AI agents, atomically",
       "owner": "Eigenwise",
       "logo": {
@@ -136,7 +136,7 @@
     },
     {
       "repo": "qdrant/fastembed",
-      "stars": 3305,
+      "stars": 3307,
       "desc": "Fast, Accurate, Lightweight Python library to make State of the Art Embedding",
       "owner": "qdrant",
       "logo": {
@@ -150,7 +150,7 @@
     },
     {
       "repo": "ZHangZHengEric/Sage",
-      "stars": 1218,
+      "stars": 1219,
       "desc": "An RSI Agent Harness for running, evaluating, and evolving agents—with tools, skills, MCP, stateful execution, and multi-agent workflows.",
       "owner": "ZHangZHengEric",
       "logo": {
@@ -165,7 +165,7 @@
     {
       "repo": "DeepGym/deepgym",
       "stars": 22,
-      "desc": "Build RL gyms, record agent traces and learn from them, with rewards that hold up against shortcut answers and infrastructure failures. Sandboxed coding and computer-use tasks, a QA gate against reward hacking, trace scanners, datasets and expert review. Works with verl, TRL, OpenRLHF and Axolotl.",
+      "desc": "RL environments with verifiable rewards you can trust. Public 0.5.0 release; newer work is private, email contact@deepgym.io for access.",
       "owner": "DeepGym",
       "logo": {
         "kind": "raster",
@@ -177,5 +177,5 @@
       "prs_exact": true
     }
   ],
-  "generated_at": "2026-11-20T11:55:35.049188+00:00"
+  "generated_at": "2026-11-21T11:26:50.299341+00:00"
 }
