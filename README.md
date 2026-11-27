@@ -11,7 +11,7 @@
 <details>
 <summary>Show the other 6 repositories</summary>
 
-- [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) · 1 PR · ★ 17.9k
+- [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) · 1 PR · ★ 18k
 - [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) · 1 PR · ★ 16.7k
 - [Eigenwise/atomic-agents](https://github.com/Eigenwise/atomic-agents) · 1 PR · ★ 6.3k
 - [qdrant/fastembed](https://github.com/qdrant/fastembed) · 1 PR · ★ 3.3k
